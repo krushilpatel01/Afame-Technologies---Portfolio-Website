@@ -196,6 +196,174 @@ nav {
     height: 100%;
 }
 
-.p-website h2{
+.p-website h2 {
     font-size: 45px;
+}
+
+.website-portfolio {
+    padding: 40px 0px;
+}
+
+.website-portfolio img {
+    width: 100%;
+    height: 100%;
+}
+
+.web-list {
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow: hidden; */
+}
+
+.web-list .col-12 {
+    width: 100%;
+}
+
+.web-port .image-detail {
+    /* padding-bottom: 30px; */
+}
+
+.web-port .image-detail h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.web-port .image-detail h3 {
+    font-size: 16px;
+    margin: 10px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.web-port .image-detail h4 {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* client review */
+.clients-review {
+    color: black;
+}
+
+.p-website textarea {
+    width: 100%;
+    text-indent: 10px;
+    padding-top: 10px;
+    margin: 10px auto;
+}
+
+.p-website input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+
+.p-website .btn {
+    margin: 10px auto;
+}
+
+.msg-box {
+    background-color: black;
+    color: white;
+    padding: 30px 30px;
+    border-radius: 0px 50px 50px 50px;
+}
+
+.msg-box .star {
+    margin: 10px auto;
+}
+
+.msg-box h6 {
+    color: orange;
+}
+
+.msg-box p {
+    text-align: center;
+}
+
+/* working-partner */
+.Working-partner {
+    margin-bottom: 50px;
+}
+
+.Working-partner .title {
+    color: black;
+}
+
+.w-patner {
+    justify-content: space-between;
+}
+
+.w-patner .col-3 {
+    width: 24%;
+}
+
+.w-patner .col-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.blogs {
+    color: white;
+    background-image: url(../images/2.jpg);
+    /* padding: 500px 30px 30px 30px; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blogs .black {
+    padding: 350px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.blogs h2 {
+    font-size: 45px;
+}
+
+.sec-blogs {
+    padding: 0px 20px;
+}
+
+.sec-blogs .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec-blogs p {
+    margin: 20px auto;
+}
+
+.sec-blogs h2 {
+    font-size: 25px;
+}
+
+.sec-blogs a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec-blogs a:hover {
+    color: red;
+}
+
+.project-btns {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-btns h2 {
+    font-size: 75px;
+}
+
+.project-btns .btn-list li {
+    margin: 10px 20x;
+}
+
+.project-btns .btn-list li button {
+    font-size: 16px;
+    padding: 10px 100px;
+    border-radius: 30px;
+    /* margin: 10px auto; */
 }
