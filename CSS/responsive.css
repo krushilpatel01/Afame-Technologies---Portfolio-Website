@@ -1,0 +1,107 @@
+@media only screen and (max-width: 478px) {
+
+    .header-images {
+        padding: 50px 0px;
+    }
+
+    .intro h3 {
+        font-size: 13px;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro p {
+        font-size: 5px;
+        max-width: 200px;
+    }
+
+    .intro button {
+        font-size: 10px;
+    }
+
+    .about {
+        padding: 0px;
+    }
+
+    .about-section .intro {
+        display: block;
+        color: white;
+    }
+
+    .our-portfolio h2 {
+        font-size: 130px;
+    }
+
+    .p-website {
+        margin: 20px auto;
+    }
+
+    .p-website h2 {
+        font-size: 40px;
+    }
+
+    .web-port {
+        margin-right: 0px;
+    }
+
+    .msg-box .star {
+        font-size: 15px;
+    }
+
+    .msg-box h3 {
+        font-size: 17px;
+    }
+
+    .msg-box p {
+        font-size: 14px;
+    }
+
+    .w-patner .col-12 {
+        width: 100%;
+    }
+
+    .portfolio-title {
+        flex-direction: column-reverse;
+    }
+
+    .blogs {
+        margin: 20px auto;
+    }
+
+    .blogs h2 {
+        font-size: 20px;
+    }
+
+    .sec-blogs h2 {
+        font-size: 20px;
+    }
+
+    .project-title h2 {
+        font-size: 40px;
+    }
+
+    .project-form {
+        margin: 0px auto;
+    }
+
+    .f-menu {
+        text-align: left;
+    }
+
+    .skills-info .list-no {
+        width: 15%;
+    }
+
+    .list-detail .btn-list .btn {
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 468px) and (max-width:790px) {
+    body {
+        background-color: aqua;
+    }
+
+}
