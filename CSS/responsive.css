@@ -4,12 +4,28 @@
         padding: 50px 0px;
     }
 
+    .intro {
+        padding: 0px 10px;
+    }
+
     .intro h3 {
         font-size: 13px;
     }
 
     .intro h1 {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .title h6 {
+        font-size: 16px;
+    }
+
+    .about-boxs {
+        padding: 0px 20px;
+    }
+
+    .about h3 {
+        font-size: 23px;
     }
 
     .intro p {
@@ -30,8 +46,17 @@
         color: white;
     }
 
+    .our-portfolio {
+        padding: 0px 10px;
+    }
+
     .our-portfolio h2 {
-        font-size: 130px;
+        font-size: 110px;
+        text-align: center;
+    }
+
+    .our-portfolio p {
+        text-align: justify;
     }
 
     .p-website {
@@ -42,9 +67,20 @@
         font-size: 40px;
     }
 
+    .p-website h2 {
+        text-align: left;
+    }
+
     .web-port {
         margin-right: 0px;
     }
+
+
+    .clients-review {
+        padding: 0px 20px;
+    }
+    .clients-review .title{
+        color: black;}
 
     .msg-box .star {
         font-size: 15px;
@@ -96,6 +132,10 @@
 
     .list-detail .btn-list .btn {
         margin: 10px;
+    }
+
+    footer{
+        padding: 0px 20px;
     }
 }
 
