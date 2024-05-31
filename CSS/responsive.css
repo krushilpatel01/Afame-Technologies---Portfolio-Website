@@ -79,8 +79,10 @@
     .clients-review {
         padding: 0px 20px;
     }
-    .clients-review .title{
-        color: black;}
+
+    .clients-review .title {
+        color: black;
+    }
 
     .msg-box .star {
         font-size: 15px;
@@ -134,14 +136,220 @@
         margin: 10px;
     }
 
-    footer{
+    footer {
         padding: 0px 20px;
     }
 }
 
-@media only screen and (min-width: 468px) and (max-width:790px) {
-    body {
-        background-color: aqua;
+@media only screen and (min-width: 479px) and (max-width:790px) {
+    .header-images {
+        padding: 50px 0px;
     }
 
+    .intro {
+        padding: 0px 20px;
+    }
+
+    .intro h3 {
+        font-size: 18px;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro p {
+        font-size: 12.5px;
+    }
+
+    .intro button {
+        font-size: 14px;
+    }
+
+    .about {
+        padding: 0px;
+    }
+
+    .our-portfolio p {
+        text-align: justify;
+    }
+
+    .our-portfolio h2 {
+        font-size: 125px;
+    }
+
+    .portfolio-title {
+        padding: 0px 10px;
+    }
+
+    .portfolio-images {
+        padding: 0px 10px;
+    }
+
+    .skills-info p {
+        text-align: justify;
+    }
+
+    .p-website {
+        margin: 30px auto;
+        padding: 0px 20px;
+    }
+
+    .p-website h2 {
+        font-size: 60px;
+    }
+
+    .clients-review .title {
+        color: black;
+    }
+
+    .our-portfolio .website-portfolio {
+        padding-top: 50px;
+    }
+
+    .our-portfolio .blogs-title {
+        font-size: 100px;
+    }
+
+    .clients-review .website-portfolio {
+        padding: 0px 20px;
+    }
+
+    .blog-list {
+        padding: 0px 20px;
+    }
+
+    .blogs {
+        margin: 20px auto;
+    }
+
+    .blogs h2 {
+        font-size: 20px;
+    }
+
+    .sec-blogs {
+        padding: 0px;
+    }
+
+    .sec-blogs h2 {
+        font-size: 20px;
+    }
+
+    .project-start {
+        padding: 0px 20px;
+    }
+
+    .project-btns h2 {
+        font-size: 50px;
+    }
+
+    footer {
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (min-width: 791px) and (max-width:1030px) {
+
+    .about-section {
+        padding: 0px 20px;
+    }
+
+    .about {
+        padding: 0px;
+    }
+
+    .header-images {
+        padding: 100px 0px;
+    }
+
+    .intro {
+        padding: 0px 20px;
+    }
+
+    .intro h3 {
+        font-size: 20px;
+    }
+
+    .intro h1 {
+        font-size: 23px;
+    }
+
+    .intro p {
+        font-size: 13px;
+    }
+
+    .intro button {
+        font-size: 14px;
+    }
+
+    .skills-info .list-no {
+        width: 15%;
+    }
+
+    .skills-info p {
+        text-align: justify;
+    }
+
+    .our-portfolio {
+        padding: 0px 20px;
+    }
+
+    .our-portfolio p {
+        text-align: justify;
+    }
+
+    .clients-review .title {
+        color: black;
+    }
+
+    .clients-review {
+        padding: 0px 20px;
+    }
+
+    .project-start {
+        padding: 0px 20px;
+    }
+
+    .project-btns h2 {
+        font-size: 80px;
+    }
+
+    footer {
+        padding: 50px 20px;
+    }
+
+    footer h2 span {
+        font-size: 50px;
+    }
+
+    footer h3 span {
+        font-size: 20px;
+    }
+
+    footer h3 {
+        font-size: 18px
+    }
+
+    .unuse-res {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .use-res {
+        display: none;
+    }
+
+    .unuse-res {
+        font-size: 130px;
+    }
+
+    .clients-review .title {
+        color: black;
+    }
+
+    .blogs-title {
+        font-size: 120px;
+        text-align: left;
+    }
 }
