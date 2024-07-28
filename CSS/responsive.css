@@ -50,7 +50,7 @@
         padding: 0px 10px;
     }
 
-    .web-port .image-detail h2{
+    .web-port .image-detail h2 {
         font-size: 20px;
     }
 
@@ -138,19 +138,26 @@
     footer {
         padding: 0px 20px;
     }
-    .unuse-res{
+
+    .unuse-res {
         display: none;
     }
-    .use-res{
+
+    .use-res {
         font-size: 100px;
         text-align: center;
+    }
+
+    .footer h2 span {
+        font-size: 69px;
     }
 }
 
 @media only screen and (min-width: 479px) and (max-width:790px) {
-    .unuse-res{
+    .unuse-res {
         display: none;
     }
+
     .header-images {
         padding: 50px 0px;
     }
@@ -338,13 +345,16 @@
     footer h3 {
         font-size: 18px
     }
-    .use-res{
+
+    .use-res {
         display: none;
     }
-    .unuse-res{
+
+    .unuse-res {
         font-size: 100px;
     }
-    .p-website h2{
+
+    .p-website h2 {
         font-size: 20px;
     }
 }
