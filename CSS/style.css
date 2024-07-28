@@ -270,6 +270,7 @@ nav {
 }
 
 .msg-box {
+    width: 100%;
     background-color: black;
     color: white;
     padding: 30px 30px;

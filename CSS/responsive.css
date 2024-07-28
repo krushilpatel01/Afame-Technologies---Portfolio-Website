@@ -50,9 +50,8 @@
         padding: 0px 10px;
     }
 
-    .our-portfolio h2 {
-        font-size: 110px;
-        text-align: center;
+    .web-port .image-detail h2{
+        font-size: 20px;
     }
 
     .our-portfolio p {
@@ -139,9 +138,19 @@
     footer {
         padding: 0px 20px;
     }
+    .unuse-res{
+        display: none;
+    }
+    .use-res{
+        font-size: 100px;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 479px) and (max-width:790px) {
+    .unuse-res{
+        display: none;
+    }
     .header-images {
         padding: 50px 0px;
     }
@@ -311,7 +320,7 @@
     }
 
     .project-btns h2 {
-        font-size: 80px;
+        font-size: 60px;
     }
 
     footer {
@@ -329,9 +338,14 @@
     footer h3 {
         font-size: 18px
     }
-
-    .unuse-res {
+    .use-res{
         display: none;
+    }
+    .unuse-res{
+        font-size: 100px;
+    }
+    .p-website h2{
+        font-size: 20px;
     }
 }
 
